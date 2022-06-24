@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<!--STATUS OK-->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="search" type="application/opensearchdescription+xml" href="/tb/cms/content-search.xml" title="百度贴吧" />
+    
+            <title>
+        百度贴吧    </title>
+
+    
+
+    
+<script>
+    void function(a,b,c,d,e,f,g){a.alogObjectName=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=a[e].l||+new Date,d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d;var h=!0;if(a.alogObjectConfig&&a.alogObjectConfig.sample){var i=Math.random();a.alogObjectConfig.rand=i,i>a.alogObjectConfig.sample&&(h=!1)}h&&(f=b.createElement(c),f.async=!0,f.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),g=b.getElementsByTagName(c)[0],g.parentNode.insertBefore(f,g))}(window,document,"script","/hunter/alog/alog.min.js","alog"),void function(){function a(){}window.PDC={mark:function(a,b){alog("speed.set",a,b||+new Date),alog.fire&&alog.fire("mark")},init:function(a){alog("speed.set","options",a)},view_start:a,tti:a,page_ready:a}}();void function(n){var o=!1;n.onerror=function(n,e,t,c){var i=!0;return!e&&/^script error/i.test(n)&&(o?i=!1:o=!0),i&&alog("exception.send","exception",{msg:n,js:e,ln:t,col:c}),!1},alog("exception.on","catch",function(n){alog("exception.send","exception",{msg:n.msg,js:n.path,ln:n.ln,method:n.method,flag:"catch"})})}(window);
+</script>    <link rel="stylesheet" href="//tb1.bdstatic.com/??/tb/static-common/style/tb.js/dialog_d30a0dc.css,/tb/static-common/lib/tbui/style/all_9239797.css" />
+<link rel="stylesheet" href="//tb1.bdstatic.com/??/tb/_/forbidden_04fe9df.css,/tb/_/search_03d43b1.css,/tb/_/http_transform_d41d8cd.css,/tb/_/footer_fd940ae.css,/tb/_/login_dialog_75f33b9.css,/tb/_/icons_fba8214.css,/tb/_/base_user_data_f665ab7.css,/tb/_/base_dialog_user_bar_69fdf18.css,/tb/_/qianbao_cashier_dialog_179e56e.css,/tb/_/qianbao_purchase_member_ed4af7d.css,/tb/_/cashier_dialog_0d74ed0.css,/tb/_/pay_member_d41d8cd.css,/tb/_/official_bar_4e3b6b6.css,/tb/_/creative_bar_1ee3d67.css,/tb/_/new_message_system_bea7f16.css,/tb/_/user_head_35f26e0.css,/tb/_/js_pager_5be1e39.css,/tb/_/wallet_dialog_7491aa5.css,/tb/_/card_1f33a7b.css,/tb/_/userbar_3e449c3.css,/tb/_/suggestion_097d72b.css" />
+<link rel="shortcut icon" href="//tb3.bdstatic.com/public/icon/favicon-v2.ico"/>
+
+<script>
+    // 页面的基�信息
+    var PageData = {
+        'tbs': "ae5efd68d53349941656047673"    };
+
+    PageData.page = "frs";
+    // 用户的基�信息
+    PageData.user = {
+        'id': 0,
+        'name': "",
+        'no_un': 0,
+        'is_login': 0,
+        'is_new_user': 1,
+        'portrait': "00000000",
+        'name_url': "&ie=utf-8",
+        'frs_login_switch': false,
+        "is_videocreator": 0,
+        "is_business_account": 0,
+        'interaction_switch': false,
+        'login_day': 5    };
+    // 吧的基本信息
+    PageData.forum = {
+        'id': 0,
+        'name': "",
+        'first_class': null,
+        'second_class': null    };
+
+
+</script>
+
+    <script> alog('speed.set', 'ht', +new Date); </script>
+
+        <!-- 引入百度统� -->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?98b9d8c2fd6608d564bf2ac2ae642948";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    
+    <script>
+        // TODO: 临时打点统�
+        function trackTemp (locate,task,page,type, extra){
+            if (page && typeof page == 'object') { extra = page; page = ''; }
+            if (type && typeof type == 'object') { extra = type; type = ''; }
+            if (document.images) { //document.images永远为true，判�对img或�js的支持吗
+                var img = new Image();
+                window["bd_pv_" + (new Date().getTime())] = img;
+                var trackUrl = "https://gsp0."+"baidu.com/5aAHeD3nKhI2p27j8IqW0jdnxx1xbK/tb/img/track.gif?"; //统�发送URL
+                var paramArr = [
+                    "client_type=pc_web",//�通PC版本
+                    "task=" + (task && encodeURIComponent(task) || ""),//不同的icafe项目
+                    "locate=" + (locate && encodeURIComponent(locate) || ""),//标示参数名称
+                    "type=" + (type && encodeURIComponent(type) || "click"),//如果type为空，则type=click
+                    "url=" + encodeURIComponent(document.location.href),//当前页面URL
+                    "refer=" + encodeURIComponent(document.referrer)//当前页面refer
+                ];
+                if(PageData){//页面数据全局变量
+                    paramArr.push("page=" + (page || PageData.page || ""));//页面标示 frs|pb
+                    if(PageData.forum){//判断吧信��否存�
+                        paramArr.push("fid=" + (PageData.forum.id || ""));//�ID
+                        paramArr.push("fname=" + encodeURIComponent(PageData.forum.name || ""));//吧名
+                    }
+                    if(PageData.user){//用户信息�否存�
+                        paramArr.push("uid=" + (PageData.user.id || ""));// 用户ID
+                        paramArr.push("uname=" + encodeURIComponent(PageData.user.name || ""));//用户�
+                        paramArr.push("is_new_user=" + (PageData.user.is_new_user || ""));//�否新用户
+                    }
+                    if(PageData.thread){//主�信��否存� ��在pb页才会有此变�
+                        paramArr.push("tid=" + ((PageData.thread && PageData.thread.thread_id) || ""));//贴子ID
+                    }
+                }
+
+                // 添加扩展属�
+                for (var i in extra) {
+                    if (extra.hasOwnProperty(i)) {
+                        paramArr.push(i + "=" + encodeURIComponent(extra[i]));
+                    }
+                }
+
+                //发�统计参�
+                trackUrl += paramArr.join("&");
+                //发�统�
+                img.src = trackUrl + "&t=" + new Date().getTime();
+                img = null;
+            }
+        }
+        trackTemp('frs_pv', 'frs_normal', 'frs', 'show');
+    </script>
+</head>
+
+<body>
+<script>
+    window.radar && window.radar.mark('ht');
+</script>
+<div class="wrap1">
+    <div class="wrap2">
+        <div class="header">
+    <div class="common-pagelet-userbar">
+    
+<div id="local_flash_cnt"></div>
+
+</div>
+
+
+
+<div id="head" class="search_bright clearfix">
+<div class="head_inner">
+    <div class="search_top clearfix">
+        <div class="search_nav j_search_nav">
+            <!-- ��-php渲染模版 -->
+													<a rel="noopener" param="wd" href=https://www.baidu.com/s?cl=3&amp; >网页</a>
+																			<a rel="noopener" param="word" href="http://www.baidu.com/s?rtt=1&amp;bsst=1&amp;cl=2&amp;tn=news&amp;fr=tieba&amp;" mark="news">资�</a>
+																			<a rel="noopener" param="word" href="http://www.baidu.com/sf/vsearch?pd=video&amp;tn=vsearch&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=21&amp;rsv_spt=11&amp;">视�</a>
+																			<a rel="noopener" param="word" href="http://image.baidu.com/i?tn=baiduimage&amp;ct=201326592&amp;lm=-1&amp;cl=2&amp;">图片</a>
+																			<a rel="noopener" param="word" href="http://zhidao.baidu.com/q?ct=17&amp;pn=0&amp;tn=ikaslist&amp;rn=10&amp;">知道</a>
+																			<a rel="noopener" href="http://wenku.baidu.com/search?fr=tieba&lm=0&od=0&" param="word" target="_blank">文库</a>
+																			<b>贴吧</b>
+																			<a rel="noopener" param="word" href="http://map.baidu.com/m?fr=map006&amp;">地图</a>
+																			<a rel="noopener" param="q" href="https://b2b.baidu.com/s?fr=tieba&amp;">采购</a>
+												<!-- 结束-php渲染模版 -->
+        </div>
+    </div>
+    <div class="search_main_wrap">
+        <div class="search_main clearfix">
+            <div class="search_form">
+                <a rel="noopener"  title="到贴吧�页" href="/" class="search_logo" id="search_logo_large"></a>
+                <a rel="noopener"  id="search_logo_small" class="" title="到贴吧�页" href="/"></a>
+                <form name="f1" class="clearfix j_search_form" action="/f"
+                      id="tb_header_search_form">
+                                        <input class="search_ipt search_inp_border j_search_input tb_header_search_input"
+                           name="kw1" value="python��" type="text" autocomplete="off" size="42"
+                           tabindex="1" id="wd1" maxlength="100" x-webkit-grammar="builtin:search"
+                           x-webkit-speech="true"/>
+                    <input autocomplete="off" type="hidden" name="kw" value="python��" id="wd2"/>
+                    <span class="search_btn_wrap search_btn_enter_ba_wrap">
+                        <a rel="noopener"  class="search_btn search_btn_enter_ba j_enter_ba" href="#"
+                           onclick="return false;"
+                           onmousedown="this.className+=' search_btn_down'"
+                           onmouseout="this.className=this.className.replace('search_btn_down','')">进入贴吧</a>
+                    </span>
+                    <span class="search_btn_wrap">
+                        <a rel="noopener"  class="search_btn j_search_post" href="#" onclick="return false;"
+                           onmousedown="this.className+=' search_btn_down'"
+                           onmouseout="this.className=this.className.replace('search_btn_down','')">全吧搜索</a>
+                    </span>
+                                    </form>
+                                <p style="display:none;" class="switch_radios">
+                    <input type="radio" class="nowtb" name="tb" id="nowtb"><label
+                        for="nowtb">吧内搜索</label>
+                    <input type="radio" class="searchtb" name="tb" id="searchtb"><label for="searchtb">搜贴</label>
+                    <input type="radio" class="authortb" name="tb" id="authortb"><label for="authortb">搜人</label>
+                    <input type="radio" class="jointb" checked="checked" name="tb" id="jointb"><label
+                        for="jointb">进吧</label>
+                    <input type="radio" class="searchtag" name="tb" id="searchtag"
+                           style="display:none;"><label for="searchtag"
+                                                        style="display:none;">搜标�</label>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script>
+if (window.alog && window.alog.fire) {
+    alog('speed.set', 'c_widget_search_show', +new Date);
+    alog.fire("mark");
+}
+</script>
+
+</div>
+<div class="wrap">
+    <div class="container">
+    <h2 class="icon-attention"> 抱歉，根�相关法律法�和政策，相关结果不予展现�</h2>    </div>
+    <div class="banner">
+        <div class="container banner-middle">
+            <div></div>
+        </div>
+    </div>
+</div>
+
+<div id="forum_not_exist">
+    <!-- <div class="forum_forbidden">
+            <h2>抱歉，根�相关法律法�和政策，本-吧暂不开放�</h2>
+        <div class="forum_forbidden_tip">
+            <h3><strong>百度建���</strong></h3>
+            <ul>
+                <li><a rel="noreferrer"  href="//www.baidu.com/s?tn=SE_hldp03870_grxwv9c1&wd=python�� site:tieba.baidu.com"
+                    class="frs_404_go_home" onclick="$.stats.track('forbidden_postbar','ps_callback_statics')">查看更�结�</a></li>
+                <li>看看输入的文字是否有�</li>
+                <li>输入其他关键词进入相关贴�</li>
+            </ul>
+        </div>
+    </div> -->
+    
+<div id="footer" class="footer">   
+                                                                                                      
+	<span>&copy;2022 Baidu</span>
+	<a pv_code="0" href="/tb/eula.html" target="_blank">贴吧协�</a>	<span>|</span>
+	<a pv_code="0" href="https://tieba.baidu.com/tb/cms/tieba-fe/tieba_promise.html" target="_blank">隐�政�</a>	<span>|</span>
+	<a pv_code="0" href="http://tieba.baidu.com/tb/system.html" target="_blank">吧主制度</a>	<span>|</span>
+	<a class="ueg_feedback-link" data-site="feedbackLink"  pv_code="0" href="http://tieba.baidu.com/hermes/feedback" target="_blank">意�反�</a>	<span>|</span>
+	<a pv_code="0" href="/tb/zt/declare/" target="_blank">网络谣言警示</a>	</div>
+
+</div>
+    </div>
+</div>
+
+<script src="//tb1.bdstatic.com/??/tb/static-common/js/promise_bff2716.js,/tb/static-common/js/promise_config_91c2822.js,/tb/static-common/lib/uri.js/src/URI.min_412317f.js,/tb/static-common/js/jquery/jquery_d3fcd6c.js,/tb/static-common/js/jquery/jquery-ui-1.10.3.custom_26f79a8.js,/tb/static-common/js/jquery/jquery.ui.droppable_d4ed035.js,/tb/static-common/js/jquery/jquery.lazyload_49a7282.js,/tb/static-common/lib/fis-module/fis_c1e11e0.js,/tb/static-common/js/__aop_af3a579.js,/tb/static-common/js/baiduTemplate_d3643f5.js,/tb/static-common/js/jcarousellite_1.0.1_71ff1f1.js,/tb/static-common/js/page_link_2ec40cf.js,/tb/static-common/js/pageconf_8abbe38.js,/tb/static-common/js/tb_af9e033.js,/tb/static-common/js/tb_extend_000de9f.js,/tb/static-common/js/tb_fis_config_e66b384.js,/tb/static-common/js/tb_stats_0e42c28.js,/tb/static-common/js/underscore_b23cfa6.js,/tb/static-common/js/qrcode_fdc9a64.js,/tb/static-common/lib/fis-module/module_b81bdad.js,/tb/static-common/lib/bigpipe.js/lib/bigpipe_c4181f8.js,/tb/static-common/js/bigpipe_config_9c152a9.js,/tb/static-common/js/lcs/lib/Long_8276e76.js,/tb/static-common/js/lcs/lcsas_a69e077.js,/tb/static-common/js/bsk/dknsaZmLdyKfEeIVbKxn_7b5edbc.js,/tb/static-common/js/bsk/omzVouOACqkNljzDbdOB_4efff96.js,/tb/static-common/js/bsk/jkaEbldlZmvawIuwAdqo_670b771.js"></script>
+<script src="//tb1.bdstatic.com/??/tb/static-common/lib/smallpipe.js/lib/smallpipe_d0797f3.js"></script>
+<script src="//tb1.bdstatic.com/??/tb/static-common/js/common/MessageSystem_2f3859e.js,/tb/static-common/js/common/CommonManager_main_d3b4283.js,/tb/static-common/js/common/passport/pass_shell_f732796.js,/tb/static-common/js/common/passport/passport_reset_8006599.js,/tb/static-common/js/common/passport/PassportFillName_925655f.js,/tb/static-common/js/common/uiDecorator_125371a.js,/tb/static-common/js/common/passport/PassportLogin_40a1a0d.js,/tb/static-common/js/common/user/User_8ed5530.js,/tb/static-common/js/common/crosspage_msg_system/utils/LCFManager_f2555be.js,/tb/static-common/js/common/crosspage_msg_system/utils/MessageProxy_25dc8d9.js,/tb/static-common/js/common/crosspage_msg_system/utils/SWFListen_87d118b.js,/tb/static-common/js/common/crosspage_msg_system/utils/SWFRequest_f586836.js,/tb/static-common/js/common/crosspage_msg_system/MsgSystem_9ef7035.js,/tb/static-common/js/common/user_message/UserMessage_3783340.js,/tb/static-common/js/tb_https_2f6042d.js"></script>
+
+<script type="text/javascript">window.alogObjectConfig={product:"14",page:"14_21",monkey_page:"",speed_page:"",speed:{sample:"0.001"},monkey:{sample:"0.001"},exception:{sample:"0.001"},feature:{sample:"0.001"},cus:{sample:"0.001"},csp:{sample:"0.001","default-src":[{match:"*bae.baidu.com",target:"Accept,Warn"},{match:"*.baidu.com,*.bdstatic.com,*.bdimg.com,localhost,*.hao123.com,*.hao123img.com",target:"Accept"},{match:/^(127|172|192|10)(\.\d+){3}$/,target:"Accept"},{match:"*",target:"Accept,Warn"}]}},void function(e,t,a,c,n,o){function r(t){e.attachEvent?e.attachEvent("onload",t,!1):e.addEventListener&&e.addEventListener("load",t)}function s(e,a,c){c=c||15;var n=new Date;n.setTime((new Date).getTime()+1e3*c),t.cookie=e+"="+escape(a)+";path=/;expires="+n.toGMTString()}function i(e){var a=t.cookie.match(new RegExp("(^| )"+e+"=([^;]*)(;|$)"));return null!=a?unescape(a[2]):null}function p(){var e=i("PMS_JT");if(e){s("PMS_JT","",-1);try{e=e.match(/{["']s["']:(\d+),["']r["']:["']([\s\S]+)["']}/),e=e&&e[1]&&e[2]?{s:parseInt(e[1]),r:e[2]}:{}}catch(a){e={}}e.r&&t.referrer.replace(/#.*/,"")!=e.r||alog("speed.set","wt",e.s)}}if(e.alogObjectConfig){var m=e.alogObjectConfig.sample,l=e.alogObjectConfig.rand;c="https:"===e.location.protocol?"https://fex.bdstatic.com"+c:"http://fex.bdstatic.com"+c,m&&l&&l>m||(r(function(){alog("speed.set","lt",+new Date),n=t.createElement(a),n.async=!0,n.src=c+"?v="+~(new Date/864e5)+~(new Date/864e5),o=t.getElementsByTagName(a)[0],o.parentNode.insertBefore(n,o)}),p())}}(window,document,"script","/hunter/alog/dp.min.js");</script>
+<script type="text/javascript">!function(){"use strict";Bigpipe.addEventListener("beforepageletload",function(e){e.on("styleloaded",function(){this.dpStyleLoadedTime=+new Date}),e.on("scriptloaded",function(){this.dpScriptLoadedTime=+new Date})}),Bigpipe.addEventListener("pageletstyleloaded",function(e){e.emit("styleloaded"),this.dpSelfStyleLoadedTime=+new Date}),Bigpipe.addEventListener("pageletscriptloaded",function(e){e.emit("scriptloaded"),this.dpSelfScriptLoadedTime=+new Date}),Bigpipe.addEventListener("pageloaded",function(e){var d,a,t,o=[{name:"frs-header/pagelet/head",showKey:"c_head_pagelet_show",loadedKey:"c_head_pagelet_loaded"},{name:"search/pagelet/search_logic",showKey:"c_search_pagelet_show",loadedKey:"c_search_pagelet_loaded"},{name:"frs-list/pagelet/content",showKey:"c_list_pagelet_show",loadedKey:"c_list_pagelet_loaded"},{name:"frs-aside/pagelet/aside",showKey:"c_aside_pagelet_show",loadedKey:"c_aside_pagelet_loaded"},{name:"frs-footer/pagelet/content_footer",showKey:"c_foot_pagelet_show",loadedKey:"c_foot_pagelet_loaded"}];$.each(o,function(){var o=e[this.name];o&&alog&&alog.fire&&(alog("speed.set",this.showKey,this.isSelf?o.dpSelfStyleLoadedTime:o.dpStyleLoadedTime),alog.fire("mark"),alog("speed.set",this.loadedKey,this.isSelf?o.dpSelfScriptLoadedTime:o.dpScriptLoadedTime),alog.fire("mark"),d=!d||d>o.dpStyleLoadedTime?o.dpStyleLoadedTime:d,a=!a||a>o.dpScriptLoadedTime?o.dpScriptLoadedTime:a,t=!t||t<o.dpStyleLoadedTime?o.dpStyleLoadedTime:t)}),d&&a&&(alog("speed.set","c_first_pagelet_show",d),alog.fire("mark"),alog("speed.set","c_first_pagelet_loaded",a),alog.fire("mark")),alog("speed.set","drt",t)})}();</script><script src="//tb1.bdstatic.com/??/tb/_/http_transform_d9b1cbd.js,/tb/_/footer_8d5b425.js,/tb/_/login_dialog_ce2d851.js,/tb/_/global_switch_6dfeb89.js,/tb/_/tdou_open_type_a72e1ed.js,/tb/_/user_api_10e048c.js,/tb/_/icons_983b4c0.js,/tb/_/base_user_data_ff57bd7.js,/tb/_/base_dialog_user_bar_6dc620e.js,/tb/_/qianbao_cashier_dialog_00f98f7.js,/tb/_/qianbao_purchase_member_b6b1e5f.js,/tb/_/messenger_e5c0696.js,/tb/_/cashier_dialog_d52cf7c.js,/tb/_/pay_member_c57f92d.js,/tb/_/business_agent_def1caf.js,/tb/_/official_bar_cb993a5.js,/tb/_/creative_bar_f4b161a.js,/tb/_/event_center_08fbacd.js,/tb/_/new_message_system_aecbc3c.js,/tb/_/join_vip_dialog_9242ef7.js,/tb/_/user_head_00b2e11.js,/tb/_/js_pager_753507e.js,/tb/_/wallet_dialog_a203f24.js,/tb/_/card_d6007e6.js,/tb/_/userbar_7d39b33.js,/tb/_/suggestion_897ee9e.js,/tb/_/search_handler_aa6a3d6.js,/tb/_/search_dialog_b4dc63b.js,/tb/_/search_logic_6438fd0.js"></script>
+<script>    _.Module.use('tbui/widget/httpTransform', [], function () {
+    });
+_.Module.use('common/widget/footer', [], function(){});
+    // PageData.product = frs TODO
+    var yyConfig = {"yy_pay_open":0,"yy_is_convert":0,"yy_scores":0};
+    PageData.user.open_switch = yyConfig.yy_pay_open;
+    PageData.user.open_convert = yyConfig.yy_is_convert;
+    PageData.user.yy_scores = yyConfig.yy_scores;
+    if (yyConfig.yy_pay_open === 1 && yyConfig.yy_is_convert === 1) {
+        var user = PageData.user;
+        var parr_scores = user.Parr_scores;
+        if (parr_scores) {
+            parr_scores.scores_money = user.yy_scores;
+            parr_scores.scores_other = 0;
+            parr_scores.scores_total = parr_scores.scores_money + parr_scores.scores_other;
+        }
+    }
+    // 冻结逻辑�到�置完开关之�
+    if (Object.freeze) {
+        (function deepFreeze(o) {
+            var prop, propKey;
+            Object.freeze(o);
+            for (propKey in o) {
+                prop = o[propKey];
+                if (!o.hasOwnProperty(propKey) ||
+                    typeof prop !== 'object' ||
+                    !prop ||
+                    Object.isFrozen(prop)) {
+                    continue;
+                }
+                deepFreeze(prop);
+            }
+        })(PageData);
+    }
+    _.Module.use("common/widget/Userbar", {
+        page: 'frs',
+        userLevel:null,
+        userScore:null,
+        vipInfo:null,
+        isVideoPGCUser: 0,
+        lcsKey: '', // flash_lcs.js �使用
+        bluePush: {
+            unit: {"url":["http:\/\/push.dui1dui.com\/tieba\/awaken"],"button":["\u9a6c\u4e0a\u62a2"],"text":["\u4eb2\u7231\u7684\uff0c\u4f60\u4e0d\u77e5\u9053\u5417\uff1f\u4f60\u8d26\u6237\u4e2d\u7684\u84dd\u94bb\u53ef\u4ee5\u7528\u6765\u5151\u6362\u8d34\u5427\u4f1a\u5458\uff01\u540d\u989d\u6709\u9650\uff0c\u901f\u6765\u62a2\uff01"]},
+            handle: null,
+            diamond: null        },
+        userBarConfigData: {"switch":"0","word":"hao123","url":"https:\/\/www.hao123.com\/?tn=50000076_hao_pg"},
+        userIdentity: {"is_business_agent":0,"is_tiebaplus_agent":0}    });
+    _.Module.use('search/widget/suggestion', [], function () {
+    });
+    _.Module.use('search/widget/search_logic', [
+        $('#head'),
+        {
+            product: 'frs',
+            forumName: '',
+            searchFixed: '1',
+            sugOn: '1'
+        }
+    ]);
+    // TODO: 临时打点统�
+    function trackTemp(locate, task, page, type, extra) {
+        if (page && typeof page == 'object') {
+            extra = page;
+            page = '';
+        }
+        if (type && typeof type == 'object') {
+            extra = type;
+            type = '';
+        }
+        if (document.images) { //document.images永远为true，判�对img或�js的支持吗
+            var img = new Image();
+            window["bd_pv_" + (new Date().getTime())] = img;
+            var trackUrl = "https://gsp0." + "baidu.com/5aAHeD3nKhI2p27j8IqW0jdnxx1xbK/tb/img/track.gif?"; //统�发送URL
+            var paramArr = [
+                "client_type=pc_web", //�通PC版本
+                "task=" + (task && encodeURIComponent(task) || ""), //不同的icafe项目
+                "locate=" + (locate && encodeURIComponent(locate) || ""), //标示参数名称
+                "type=" + (type && encodeURIComponent(type) || "click"), //如果type为空，则type=click
+                "url=" + encodeURIComponent(document.location.href), //当前页面URL
+                "refer=" + encodeURIComponent(document.referrer) //当前页面refer
+            ];
+            if (PageData) { //页面数据全局变量
+                paramArr.push("page=" + (page || PageData.page || "")); //页面标示 frs|pb
+                if (PageData.forum) { //判断吧信��否存�
+                    paramArr.push("fid=" + (PageData.forum.id || "")); //�ID
+                    paramArr.push("fname=" + encodeURIComponent(PageData.forum.name || "")); //吧名
+                }
+                if (PageData.user) { //用户信息�否存�
+                    paramArr.push("uid=" + (PageData.user.id || "")); // 用户ID
+                    paramArr.push("uname=" + encodeURIComponent(PageData.user.name || "")); //用户�
+                    paramArr.push("is_new_user=" + (PageData.user.is_new_user || "")); //�否新用户
+                }
+                if (PageData.thread) { //主�信��否存� ��在pb页才会有此变�
+                    paramArr.push("tid=" + ((PageData.thread && PageData.thread.thread_id) || "")); //贴子ID
+                }
+            }
+
+            // 添加扩展属�
+            for (var i in extra) {
+                if (extra.hasOwnProperty(i)) {
+                    paramArr.push(i + "=" + encodeURIComponent(extra[i]));
+                }
+            }
+
+            //发�统计参�
+            trackUrl += paramArr.join("&");
+            //发�统�
+            img.src = trackUrl + "&t=" + new Date().getTime();
+            img = null;
+        }
+    }
+    var isLu = 0;
+    if (isLu) {
+        trackTemp('lu_frs_' + '', 'lu广告', 'frs', 'show');
+    }
+</script><script>
+    if  (window.radar) {
+        !function(){"use strict";if(window.radar){var t=document.createElement("script");t.src="//tb3.bdstatic.com/radar-sdk/prod/js/2.0.0/es3/radar.min.js?t="+(new Date).getTime(),document.getElementsByTagName("body")[0].appendChild(t)}}();
+    }
+</script>
+</body>
+	<!-- 适�化js -->
+	<script defer type="text/javascript"  src="//tb5.bdstatic.com/api/wza/aria.js?appid=c890648bf4dd00d05eb9751dd0548c30" charset=”utf-8�></script>
+</html>
+<!--08734083450379986698062413-->
+<script> var _trace_page_logid = 0873408345; </script>
